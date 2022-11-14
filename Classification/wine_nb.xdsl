@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="DAG" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="class">
+			<state id="c1" />
+			<state id="c2" />
+			<state id="c3" />
+			<probabilities>0.3314917127071823 0.3977900552486188 0.2707182320441989</probabilities>
+		</cpt>
+		<equation id="prolin">
+			<parents>class</parents>
+			<definition lower="278" upper="1680">prolin=Choose(class,Normal(1109.56,51308.6),Normal(522.665,26106.6),Normal(632.284,14992.7))</definition>
+			<discretization>
+				<interval upper="418.2" />
+				<interval upper="558.4" />
+				<interval upper="698.5999999999999" />
+				<interval upper="838.8" />
+				<interval upper="979" />
+				<interval upper="1119.2" />
+				<interval upper="1259.4" />
+				<interval upper="1399.6" />
+				<interval upper="1539.8" />
+				<interval upper="1680" />
+			</discretization>
+		</equation>
+		<equation id="od280_od315">
+			<parents>class</parents>
+			<definition lower="1.27" upper="4">od280_od315=Choose(class,Normal(3.14869,0.136496),Normal(2.78294,0.247111),Normal(1.70248,0.0984739))</definition>
+			<discretization>
+				<interval upper="1.543" />
+				<interval upper="1.816" />
+				<interval upper="2.089" />
+				<interval upper="2.362000000000001" />
+				<interval upper="2.635000000000001" />
+				<interval upper="2.908000000000001" />
+				<interval upper="3.181000000000001" />
+				<interval upper="3.454000000000001" />
+				<interval upper="3.727000000000001" />
+				<interval upper="4" />
+			</discretization>
+		</equation>
+		<equation id="hue">
+			<parents>class</parents>
+			<definition lower="0.48" upper="1.71">hue=Choose(class,Normal(1.06029,0.014161),Normal(1.05491,0.0408947),Normal(0.688315,0.0151315))</definition>
+			<discretization>
+				<interval upper="0.603" />
+				<interval upper="0.726" />
+				<interval upper="0.849" />
+				<interval upper="0.972" />
+				<interval upper="1.095" />
+				<interval upper="1.218" />
+				<interval upper="1.341" />
+				<interval upper="1.464" />
+				<interval upper="1.587" />
+				<interval upper="1.71" />
+			</discretization>
+		</equation>
+		<equation id="color_intensity">
+			<parents>class</parents>
+			<definition lower="1.28" upper="13">color_intensity=Choose(class,Normal(5.52047,1.57562),Normal(3.114,0.959188),Normal(7.34853,5.34084))</definition>
+			<discretization>
+				<interval upper="2.452" />
+				<interval upper="3.624" />
+				<interval upper="4.796" />
+				<interval upper="5.968" />
+				<interval upper="7.140000000000001" />
+				<interval upper="8.312000000000001" />
+				<interval upper="9.484000000000002" />
+				<interval upper="10.656" />
+				<interval upper="11.828" />
+				<interval upper="13" />
+			</discretization>
+		</equation>
+		<equation id="proanthocyanins">
+			<parents>class</parents>
+			<definition lower="0.41" upper="3.58">proanthocyanins=Choose(class,Normal(1.89418,0.171161),Normal(1.62973,0.356962),Normal(1.16247,0.170797))</definition>
+			<discretization>
+				<interval upper="0.727" />
+				<interval upper="1.044" />
+				<interval upper="1.361" />
+				<interval upper="1.678" />
+				<interval upper="1.995" />
+				<interval upper="2.312" />
+				<interval upper="2.629" />
+				<interval upper="2.946" />
+				<interval upper="3.263" />
+				<interval upper="3.58" />
+			</discretization>
+		</equation>
+		<equation id="nonflavanoids">
+			<parents>class</parents>
+			<definition lower="0.13" upper="0.66">nonflavanoids=Choose(class,Normal(0.291198,0.00508464),Normal(0.363637,0.0151535),Normal(0.445752,0.0152426))</definition>
+			<discretization>
+				<interval upper="0.183" />
+				<interval upper="0.236" />
+				<interval upper="0.289" />
+				<interval upper="0.342" />
+				<interval upper="0.395" />
+				<interval upper="0.448" />
+				<interval upper="0.501" />
+				<interval upper="0.554" />
+				<interval upper="0.6070000000000001" />
+				<interval upper="0.66" />
+			</discretization>
+		</equation>
+		<equation id="flavanoids">
+			<parents>class</parents>
+			<definition lower="0.34" upper="5.08">flavanoids=Choose(class,Normal(2.96649,0.184157),Normal(2.08013,0.497996),Normal(0.806924,0.134003))</definition>
+			<discretization>
+				<interval upper="0.8140000000000001" />
+				<interval upper="1.288" />
+				<interval upper="1.762" />
+				<interval upper="2.236" />
+				<interval upper="2.71" />
+				<interval upper="3.184000000000001" />
+				<interval upper="3.658000000000001" />
+				<interval upper="4.132000000000001" />
+				<interval upper="4.606000000000001" />
+				<interval upper="5.08" />
+			</discretization>
+		</equation>
+		<equation id="total_phenols">
+			<parents>class</parents>
+			<definition lower="0.98" upper="3.88">total_phenols=Choose(class,Normal(2.83109,0.122425),Normal(2.25938,0.294585),Normal(1.69133,0.137771))</definition>
+			<discretization>
+				<interval upper="1.27" />
+				<interval upper="1.56" />
+				<interval upper="1.85" />
+				<interval upper="2.14" />
+				<interval upper="2.43" />
+				<interval upper="2.72" />
+				<interval upper="3.01" />
+				<interval upper="3.3" />
+				<interval upper="3.59" />
+				<interval upper="3.88" />
+			</discretization>
+		</equation>
+		<equation id="magnesium">
+			<parents>class</parents>
+			<definition lower="70" upper="162">magnesium=Choose(class,Normal(106.229,110.648),Normal(94.6214,276.07),Normal(99.3213,117.905))</definition>
+			<discretization>
+				<interval upper="79.2" />
+				<interval upper="88.40000000000001" />
+				<interval upper="97.60000000000001" />
+				<interval upper="106.8" />
+				<interval upper="116" />
+				<interval upper="125.2" />
+				<interval upper="134.4" />
+				<interval upper="143.6" />
+				<interval upper="152.8" />
+				<interval upper="162" />
+			</discretization>
+		</equation>
+		<equation id="alcalinity_ash">
+			<parents>class</parents>
+			<definition lower="10.6" upper="30">alcalinity_ash=Choose(class,Normal(17.0782,6.55146),Normal(20.2277,11.0709),Normal(21.3774,5.19131))</definition>
+			<discretization>
+				<interval upper="12.54" />
+				<interval upper="14.48" />
+				<interval upper="16.42" />
+				<interval upper="18.36" />
+				<interval upper="20.3" />
+				<interval upper="22.24" />
+				<interval upper="24.18" />
+				<interval upper="26.12" />
+				<interval upper="28.06000000000001" />
+				<interval upper="30" />
+			</discretization>
+		</equation>
+		<equation id="ash">
+			<parents>class</parents>
+			<definition lower="1.36" upper="3.23">ash=Choose(class,Normal(2.45411,0.0512616),Normal(2.24648,0.0979976),Normal(2.43564,0.0343451))</definition>
+			<discretization>
+				<interval upper="1.547" />
+				<interval upper="1.734" />
+				<interval upper="1.921" />
+				<interval upper="2.108" />
+				<interval upper="2.295" />
+				<interval upper="2.482" />
+				<interval upper="2.669" />
+				<interval upper="2.855999999999999" />
+				<interval upper="3.042999999999999" />
+				<interval upper="3.23" />
+			</discretization>
+		</equation>
+		<equation id="malic_acid">
+			<parents>class</parents>
+			<definition lower="0.74" upper="5.8">malic_acid=Choose(class,Normal(2.01611,0.480718),Normal(1.93828,1.0222),Normal(3.31339,1.18045))</definition>
+			<discretization>
+				<interval upper="1.246" />
+				<interval upper="1.752" />
+				<interval upper="2.258" />
+				<interval upper="2.764" />
+				<interval upper="3.27" />
+				<interval upper="3.776000000000001" />
+				<interval upper="4.282000000000001" />
+				<interval upper="4.788000000000001" />
+				<interval upper="5.294000000000001" />
+				<interval upper="5.8" />
+			</discretization>
+		</equation>
+		<equation id="alcohol">
+			<parents>class</parents>
+			<definition lower="11.03" upper="14.83">alcohol=Choose(class,Normal(13.7323,0.226439),Normal(12.2888,0.297606),Normal(13.1506,0.283524))</definition>
+			<discretization>
+				<interval upper="11.41" />
+				<interval upper="11.79" />
+				<interval upper="12.17" />
+				<interval upper="12.55" />
+				<interval upper="12.93" />
+				<interval upper="13.31" />
+				<interval upper="13.69" />
+				<interval upper="14.07000000000001" />
+				<interval upper="14.45000000000001" />
+				<interval upper="14.83" />
+			</discretization>
+		</equation>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only" name="DAG">
+			<node id="class">
+				<name>class</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>1917 172 1917 172</position>
+				<barchart active="true" width="160" height="110" />
+			</node>
+			<node id="alcohol">
+				<name>alcohol</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>706 810 706 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="malic_acid">
+				<name>malic_acid</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>899 810 899 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="ash">
+				<name>ash</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>1092 810 1092 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="alcalinity_ash">
+				<name>alcalinity_ash</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>1285 810 1285 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="magnesium">
+				<name>magnesium</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>1478 810 1478 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="total_phenols">
+				<name>total_phenols</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>1671 810 1671 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="flavanoids">
+				<name>flavanoids</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>1864 810 1864 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="nonflavanoids">
+				<name>nonflavanoids</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>2057 810 2057 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="proanthocyanins">
+				<name>proanthocyanins</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>2250 810 2250 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="color_intensity">
+				<name>color_intensity</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>2443 810 2443 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="hue">
+				<name>hue</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>2636 810 2636 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="od280_od315">
+				<name>od280_od315</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>2829 810 2829 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+			<node id="prolin">
+				<name>prolin</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000080" name="Arial" size="10" bold="true" />
+				<position>3022 810 3022 810</position>
+				<barchart active="true" width="160" height="220" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
